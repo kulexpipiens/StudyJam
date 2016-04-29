@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BirthdayWish" parent="Base.TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/default_padding</item>
+    </style>
+    <!--
+        <style name="Base.TextAppearance.AppCompat.Display1.Name">
+            <item name="android:textColor">@color/white</item>
+            <item name="android:padding">@dimen/default_padding</item>
+        </style>
+    -->
+    <style name="BirthdayWish.Big" >
+        <item name="android:textSize">@dimen/girthday_wish_big</item>
+    </style>
+</resources>
